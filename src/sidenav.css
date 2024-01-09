@@ -1,0 +1,114 @@
+.sidenav-container {
+  min-width: 224px;
+  max-width: 224px;
+  background-color: #1e2640;
+  height: 100%;
+  position: sticky;
+  left: 0;
+  padding: 16px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.profile-details {
+  display: flex;
+  gap: 12px;
+}
+
+.profile-logo {
+  width: 39px;
+  height: 39px;
+  border-radius: 4px;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  line-height: 22px;
+}
+
+.visit {
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+  text-decoration: underline;
+  opacity: 0.8;
+  line-height: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100% - 66px);
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.menu-option {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.menu-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+.menu-active {
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.active-credits-container {
+  border-radius: 4px;
+  background: #353c53;
+  padding: 6px 12px 6px 12px;
+  display: flex;
+  gap: 12px;
+}
+
+.wallet-container {
+  padding: 6px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.available-credits {
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.8;
+  line-height: 16px;
+  color: white;
+}
+
+.credits {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: white;
+}
